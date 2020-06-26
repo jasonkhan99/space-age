@@ -11,6 +11,7 @@ _This is an assignment to test our understanding of Test Driven Development by c
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
+| The program will store info about a users age, country of birth, sex assignment at birth  | Input: N/A | Output: N/A |
 | The program will calculate users age on Mercury based on their Earth age | Input: 30 | Output: 125 |
 | The program will calculate users age on Venus based on their Earth age | Input: 30 | Output: 48.39 |
 | The program will calculate users age on Mars based on their Earth age | Input: 30 | Output: 15.96 |
