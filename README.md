@@ -23,7 +23,7 @@ _This is an assignment to test our understanding of Test Driven Development by c
 
 ## Setup/Installation Requirements
 
-* _Visit the following link: _
+* _Go to_ https://github.com/jasonkhan99/space-age.git
 * _Clone the repository to your desired directory._
 
 ## Known Bugs
