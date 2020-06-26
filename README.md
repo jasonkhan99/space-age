@@ -17,6 +17,8 @@ _This is an assignment to test our understanding of Test Driven Development by c
 | The program will calculate users age on Mars based on their Earth age | Input: 30 | Output: 15.96 |
 | The program will calculate users age on Jupiter based on their Earth age | Input: 30 | Output: 2.53 |
 | The program will calculate users life expectancy based on their country and sex assignment at birth | Input: Mexico, Female | Output: N/A |
+| The program will calculate users remaining life expectancy on each planet based on their earth life expectancy | Input: N/A | Output: You have x years left to live on planet |
+| The program will calculate users years over life expectancy if they have lived past it on each planet | Input: N/A | Output: You have lived x years more than expected on planet |
 
 
 ## Setup/Installation Requirements
