@@ -51,6 +51,6 @@ describe('User and all its initial properties age, country, sex before adding li
   });
 
   test('should correctly return years left to live on jupiter', () => {
-    expect(user.calculateJupiterLifeExpectancy()).toEqual(`You have 25 years left to live on Jupiter`);
+    expect(user.calculateJupiterLifeExpectancy()).toEqual(`You have 4 years left to live on Jupiter`);
   });
 });
