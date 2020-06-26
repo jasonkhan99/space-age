@@ -1,11 +1,12 @@
 export class User {
-  constructor(age, country, sex) {
-    this.age = age;
+  constructor(earthAge, country, sex, mercuryAge) {
+    this.earthAge = earthAge;
     this.country = country;
     this.sex = sex;
+    this.mercuryAge = mercuryAge;
   }
 
   calculateMercuryAge() {
-    return this.age / .24;
+    return Math.round(this.earthAge / .24);
   }
 }
