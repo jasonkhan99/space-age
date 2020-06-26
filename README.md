@@ -1,4 +1,4 @@
-# _PROJECT NAME_
+# __
 
 #### _SHORT DESCR_
 
