@@ -20,4 +20,8 @@ describe('User and all its properties', () => {
   test('should correctly return users age on venus', () => {
     expect(user.calculateVenusAge()).toEqual(40);
   });
+
+  test('should correctly return users age on mars', () => {
+    expect(user.calculateMarsAge()).toEqual(false);
+  });
 });
