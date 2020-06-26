@@ -16,6 +16,7 @@ _This is an assignment to test our understanding of Test Driven Development by c
 | The program will calculate users age on Venus based on their Earth age | Input: 30 | Output: 48.39 |
 | The program will calculate users age on Mars based on their Earth age | Input: 30 | Output: 15.96 |
 | The program will calculate users age on Jupiter based on their Earth age | Input: 30 | Output: 2.53 |
+| The program will calculate users life expectancy based on their country and sex assignment at birth | Input: Mexico, Female | Output: N/A |
 
 
 ## Setup/Installation Requirements
