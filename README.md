@@ -1,12 +1,12 @@
-# __
+# _Super Galatic Age Calculator_
 
-#### _SHORT DESCR_
+#### _A business interface to calculate your age on various planets_
 
-#### By _**YOUR NAME HERE**_
+#### By _**Jason Khan**_
 
 ## Description
 
-_Long deiscription._
+_This is an assignment to test our understanding of Test Driven Development by creating and testing the business logic of a webpage that will take a users age and return their age on different planets._
 
 ### Specs
 | Spec | Input | Output |
@@ -17,23 +17,21 @@ _Long deiscription._
 
 * _Visit the following link: _
 * _Clone the repository to your desired directory._
-* _OR_
-* _Visit here: _
-
 
 ## Known Bugs
 
-_ _
+_None_
+
 ## Support and contact details
 
-_Contact me at...._
+_Contact me at my github page_
 
 ## Technologies Used
 
-_Technology!_
+_HTML, CSS, Javascript, JQuery_
 
 ### License
 
 *GPL license distribution*
 
-Copyright (c) 2020 **_Your name(s)_**
+Copyright (c) 2020 **_Jason Khan_**
