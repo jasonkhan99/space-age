@@ -20,7 +20,7 @@ describe('User and all its initial properties age, country, sex before adding li
 
   test('should correctly return users age on venus and update user object', () => {
     expect(user.calculateVenusAge()).toEqual(40);
-    expect(user.calculateVenusAge()).toEqual(user.mercuryAge);
+    expect(user.calculateVenusAge()).toEqual(user.venusAge);
   });
 
   test('should correctly return users age on mars', () => {
