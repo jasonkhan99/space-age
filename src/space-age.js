@@ -45,7 +45,7 @@ export class User {
 
   calculateVenusLifeExpectancy() {
     if (this.age <= this.lifeExpectancy) {
-      return `You have ${Math.round(this.lifeExpectancy / .24) - this.venusAge} years left to live on Venus`;
+      return `You have ${Math.round(this.lifeExpectancy / .62) - this.venusAge} years left to live on Venus`;
     } else {
       return `You have lived ${this.venusAge - Math.round(this.lifeExpectancy / .62)} more years than expected on Venus`;
     }
@@ -53,7 +53,7 @@ export class User {
 
   calculateMarsLifeExpectancy() {
     if (this.age <= this.lifeExpectancy) {
-      return `You have ${Math.round(this.lifeExpectancy / .24) - this.marsAge} years left to live on Mars`;
+      return `You have ${Math.round(this.lifeExpectancy / 1.88) - this.marsAge} years left to live on Mars`;
     } else {
       return `You have lived ${this.marsAge - Math.round(this.lifeExpectancy / 1.88)} more years than expected on Mars`;
     };
@@ -61,7 +61,7 @@ export class User {
 
   calculateJupiterLifeExpectancy() {
     if (this.age <= this.lifeExpectancy) {
-      return `You have ${Math.round(this.lifeExpectancy / .24) - this.jupiterAge} years left to live on Jupiter`;
+      return `You have ${Math.round(this.lifeExpectancy / 11.86) - this.jupiterAge} years left to live on Jupiter`;
     } else {
       return `You have lived ${this.jupiterAge - Math.round(this.lifeExpectancy / 11.86)} more years than expected on Jupiter`;
     }

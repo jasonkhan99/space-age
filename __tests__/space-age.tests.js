@@ -39,18 +39,18 @@ describe('User and all its initial properties age, country, sex before adding li
   });
 
   test('should correctly return years left to live on mercury', () => {
-    expect(user.calculateMercuryLifeExpectancy()).toEqual(`You have 192 years left to live on Mercury`);
+    expect(user.calculateMercuryLifeExpectancy()).toEqual(`You have lived 121 more years than expected on Mercury`);
   });
 
   test('should correctly return years left to live on venus', () => {
-    expect(user.calculateVenusLifeExpectancy()).toEqual(`You have 75 years left to live on Venus`);
+    expect(user.calculateVenusLifeExpectancy()).toEqual(`You have lived 46 more years than expected on Venus`);
   });
 
   test('should correctly return years left to live on mars', () => {
-    expect(user.calculateMarsLifeExpectancy()).toEqual(`You have 25 years left to live on Mars`);
+    expect(user.calculateMarsLifeExpectancy()).toEqual(`You have lived 15 more years than expected on Mars`);
   });
 
   test('should correctly return years left to live on jupiter', () => {
-    expect(user.calculateJupiterLifeExpectancy()).toEqual(`You have 4 years left to live on Jupiter`);
+    expect(user.calculateJupiterLifeExpectancy()).toEqual(`You have lived 2 more years than expected on Jupiter`);
   });
 });
