@@ -4,7 +4,7 @@ describe('User and all its initial properties age, country, sex before adding li
   let user;
 
   beforeEach(() => {
-    user = new User(25, "Mexico", "Female", 21, 71);
+    user = new User(25, "Mexico", "Female", 104, 71);
   });
 
   test('should correctly create a User object with three properties: age, country, sex', () => {
