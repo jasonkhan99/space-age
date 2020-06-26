@@ -32,6 +32,6 @@ describe('User and all its properties', () => {
   test('should correctly add life expectancy to user object', () => {
 
     expect(user.calculateLifeExpectancy()).toEqual(71);
-    expect(user.calculateLifeExpectancy()).toEqual(user.age);
+    expect(user.calculateLifeExpectancy()).toEqual(user.lifeExpectancy);
   });
 });
