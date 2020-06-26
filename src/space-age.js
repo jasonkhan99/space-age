@@ -36,7 +36,11 @@ export class User {
   }
 
   calculateMercuryLifeExpectancy() {
-    return `You have ${Math.round(this.lifeExpectancy / .24) - this.mercuryAge} years left to live on Mercury`;
+    if (this.age <= this.lifeExpectancy) {
+      return `You have ${Math.round(this.lifeExpectancy / .24) - this.mercuryAge} years left to live on Mercury`;
+    } else {
+      return `You have lived ${this.mercuryAge - Math.round(this.lifeExpectancy / .24)} more years than expected on Mercury`;
+    }
   }
 
   calculateVenusLifeExpectancy() {
