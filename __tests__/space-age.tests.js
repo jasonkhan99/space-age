@@ -49,4 +49,8 @@ describe('User and all its initial properties age, country, sex before adding li
   test('should correctly return years left to live on mars', () => {
     expect(user.calculateMarsLifeExpectancy()).toEqual(`You have 25 years left to live on Mars`);
   });
+
+  test('should correctly return years left to live on jupiter', () => {
+    expect(user.calculateJupiterLifeExpectancy()).toEqual(`You have 25 years left to live on Jupiter`);
+  });
 });
