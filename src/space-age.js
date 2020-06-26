@@ -44,14 +44,26 @@ export class User {
   }
 
   calculateVenusLifeExpectancy() {
-    return `You have ${Math.round(this.lifeExpectancy / .62) - this.venusAge} years left to live on Venus`;
+    if (this.age <= this.lifeExpectancy) {
+      return `You have ${Math.round(this.lifeExpectancy / .24) - this.venusAge} years left to live on Venus`;
+    } else {
+      return `You have lived ${this.venusAge - Math.round(this.lifeExpectancy / .24)} more years than expected on Venus`;
+    }
   }
 
   calculateMarsLifeExpectancy() {
-    return `You have ${Math.round(this.lifeExpectancy / 1.88) - this.marsAge} years left to live on Mars`;
+    if (this.age <= this.lifeExpectancy) {
+      return `You have ${Math.round(this.lifeExpectancy / .24) - this.marsAge} years left to live on Mars`;
+    } else {
+      return `You have lived ${this.marsAge - Math.round(this.lifeExpectancy / .24)} more years than expected on Mars`;
+    };
   }
 
   calculateJupiterLifeExpectancy() {
-    return `You have ${Math.round(this.lifeExpectancy / 11.86) - this.jupiterAge} years left to live on Jupiter`;
+    if (this.age <= this.lifeExpectancy) {
+      return `You have ${Math.round(this.lifeExpectancy / .24) - this.jupiterAge} years left to live on Jupiter`;
+    } else {
+      return `You have lived ${this.jupiterAge - Math.round(this.lifeExpectancy / .24)} more years than expected on Jupiter`;
+    }
   }
 }
