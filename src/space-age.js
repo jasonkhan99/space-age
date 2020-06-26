@@ -20,4 +20,8 @@ export class User {
   calculateJupiterAge() {
     return Math.round(this.age / 11.86);
   }
+
+  calculateLifeExpectancy() {
+    User.lifeExpectancy = 71;
+  }
 }
