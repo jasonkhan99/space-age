@@ -1,5 +1,6 @@
 export class User {
   constructor(age, country, sex) {
+    console.log(age);
     this.age = age;
     this.country = country;
     this.sex = sex;
@@ -22,6 +23,7 @@ export class User {
   }
 
   calculateLifeExpectancy() {
-    User.lifeExpectancy = 71;
+    this.lifeExpectancy = 71;
+    return this.lifeExpectancy;
   }
 }

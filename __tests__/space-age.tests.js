@@ -28,4 +28,10 @@ describe('User and all its properties', () => {
   test('should correctly return users age on jupiter', () => {
     expect(user.calculateJupiterAge()).toEqual(2);
   });
+
+  test('should correctly add life expectancy to user object', () => {
+
+    expect(user.calculateLifeExpectancy()).toEqual(71);
+    expect(user.calculateLifeExpectancy()).toEqual(user.age);
+  });
 });
