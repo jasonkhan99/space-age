@@ -43,6 +43,6 @@ describe('User and all its initial properties age, country, sex before adding li
   });
 
   test('should correctly return years left to live on venus', () => {
-    expect(user.calculateVenusLifeExpectancy()).toEqual(`You have 71 years left to live on Venus`);
+    expect(user.calculateVenusLifeExpectancy()).toEqual(`You have 75 years left to live on Venus`);
   });
 });
