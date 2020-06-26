@@ -34,4 +34,8 @@ export class User {
     this.lifeExpectancy = 71; // This would be a formula based on a database of info regarding sex and country life expectancy
     return this.lifeExpectancy;
   }
+
+  calculateMercuryLifeExpectancy() {
+    return `You have ${Math.round(this.lifeExpectancy / .24) - this.mercuryAge} years left to live on Mercury`;
+  }
 }

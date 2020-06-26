@@ -4,7 +4,7 @@ describe('User and all its initial properties age, country, sex before adding li
   let user;
 
   beforeEach(() => {
-    user = new User(25, "Mexico", "Female", 104, 40, 13, 1, 71);
+    user = new User(25, "Mexico", "Female", 104, 40, 13, 2, 71);
   });
 
   test('should correctly create a User object with three properties: age, country, sex', () => {
@@ -36,5 +36,9 @@ describe('User and all its initial properties age, country, sex before adding li
   test('should correctly add life expectancy to user object', () => {
     expect(user.calculateLifeExpectancy()).toEqual(71);
     expect(user.calculateLifeExpectancy()).toEqual(user.lifeExpectancy);
+  });
+
+  test('should correctly return years left to live on mercury', () => {
+    expect(user.calculateMercuryLifeExpectancy()).toEqual(`You have 194 years left to live on Mercury`);
   });
 });
