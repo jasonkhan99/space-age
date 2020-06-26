@@ -16,4 +16,8 @@ export class User {
   calculateMarsAge() {
     return Math.round(this.age / 1.88);
   }
+
+  calculateJupiterAge() {
+    return Math.round(this.age / 11.86);
+  }
 }
