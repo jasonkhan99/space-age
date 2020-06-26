@@ -8,7 +8,7 @@ describe('User and all its properties', () => {
   });
 
   test('should correctly create a User object with three properties: age, country, sex', () => {
-    expect(user.earthAge).toEqual(25);
+    expect(user.age).toEqual(25);
     expect(user.country).toEqual("Mexico");
     expect(user.sex).toEqual("Female");
   });
@@ -16,4 +16,6 @@ describe('User and all its properties', () => {
   test('should correctly return users age on mercury', () => {
     expect(user.calculateMercuryAge()).toEqual(104);
   });
+
+  
 });
