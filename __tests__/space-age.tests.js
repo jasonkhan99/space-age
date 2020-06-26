@@ -39,6 +39,6 @@ describe('User and all its initial properties age, country, sex before adding li
   });
 
   test('should correctly return years left to live on mercury', () => {
-    expect(user.calculateMercuryLifeExpectancy()).toEqual(`You have 194 years left to live on Mercury`);
+    expect(user.calculateMercuryLifeExpectancy()).toEqual(`You have 40 years left to live on Mercury`);
   });
 });
