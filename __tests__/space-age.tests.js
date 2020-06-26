@@ -1,10 +1,10 @@
 import { User } from '../src/space-age.js';
 
-describe('User and all its properties', () => {
+describe('User and all its initial properties age, country, sex before adding life expectancy', () => {
   let user;
 
   beforeEach(() => {
-    user = new User(25, "Mexico", "Female");
+    user = new User(25, "Mexico", "Female", 71);
   });
 
   test('should correctly create a User object with three properties: age, country, sex', () => {
