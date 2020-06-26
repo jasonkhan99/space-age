@@ -4,4 +4,8 @@ export class User {
     this.country = country;
     this.sex = sex;
   }
+
+  calculateMercuryAge() {
+    return this.age / .24;
+  }
 }
