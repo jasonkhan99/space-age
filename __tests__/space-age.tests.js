@@ -4,7 +4,7 @@ describe('User and all its initial properties age, country, sex before adding li
   let user;
 
   beforeEach(() => {
-    user = new User(25, "Mexico", "Female", 104, 40, 13, 71);
+    user = new User(25, "Mexico", "Female", 104, 40, 12, 71);
   });
 
   test('should correctly create a User object with three properties: age, country, sex', () => {
@@ -25,7 +25,7 @@ describe('User and all its initial properties age, country, sex before adding li
 
   test('should correctly return users age on mars and update user object', () => {
     expect(user.calculateMarsAge()).toEqual(13);
-    expect(user.calculateMarsAge()).toEqual(user.venusAge);
+    expect(user.calculateMarsAge()).toEqual(user.marsAge);
   });
 
   test('should correctly return users age on jupiter', () => {
